@@ -40,7 +40,7 @@
 .banner-4-target {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
+  gap: 30px;
 }
 
 .target-html {
@@ -67,6 +67,10 @@
 .target-2,
 .target-3 {
   padding: 40px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .target-1 h1,
@@ -89,6 +93,8 @@
   line-height: 26px;
   padding-top: 10px;
   padding-bottom: 10px;
+  flex-grow: 1;
+
 
 }
 
@@ -99,4 +105,17 @@
   text-decoration: underline;
   color: rgb(13, 19, 33);
   font-weight: 700;
+
 }
+
+/* using flex for fixing the btn position */
+/* .target-html, .target-css, .target-js{
+  display: flex;
+  flex-direction: column;
+}
+.target-html p, .target-css p, .target-js p{
+  flex-grow: 1;
+}
+.target-html h5, .target-css h5, .target-js h5{
+  flex-grow: 0;
+} */
