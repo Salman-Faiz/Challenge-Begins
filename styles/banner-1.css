@@ -4,7 +4,7 @@
   font-family: Azeret Mono;
 }
 
-.Banner-1 {
+.banner-1 {
   background-image: url("/assets/Hero-bg.png");
   height: 652px;
   max-width: 100%;
@@ -49,3 +49,4 @@ font-weight: 600;
 border-radius:10px;
 
 }
+
