@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Azeret Mono;
+  }
+  
+  .banner-1 {
+    background-image: url("/assets/Hero-bg.png");
+    height: 652px;
+    max-width: 100%;
+  }
+  .banner-1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 44px;
+  }
+  .banner-1-content img {
+    padding-bottom: 32px;
+  }
+  .banner-1-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  .banner-1-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    width: 852px;
+    text-align: center;
+  }
+  .banner-1-content button{
+  width: 208px;
+  height: 66px;
+  background-color: black;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius:10px;
+  
+  }
+  
+  /*banner 2 started from here  */
+  /* ************************ */
+  /* banner-2 start */
+.banner-2 {
+    background-color: cadetblue;
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* banner-2 title section */
+  .banner-2-title {
+    text-align: center;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .banner-2-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+  }
+  
+  .banner-2-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    line-height: 26px;
+  }
+  
+  .banner-2,
+  .banner-2-layer-1,
+  .banner-2-layer-2,
+  .banner-2-layer-3 {
+  
+  
+    padding-left: 152px;
+    padding-right: 152px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    background: linear-gradient(270deg,
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0) 100%);
+  }
+  
+  /* layer 1 layer-2 layer-3  combined classes */
+  .banner-2-layer-1,
+  .banner-2-layer-2,
+  .banner-2-layer-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 98px;
+    padding: 48px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,
+        rgb(255, 255, 252),
+        rgba(175, 22, 22, 0.05) 100%);
+  }
+  
+  .layer-1 h1,
+  .layer-2 h1,
+  .layer-3 h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 36px;
+  }
+  
+  .layer-1 p,
+  .layer-2 p,
+  .layer-3 p {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    line-height: 26px;
+  }
+  
+  .layer-1 button,
+  .layer-2 button,
+  .layer-3 button {
+    width: 150px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+  }
+  /* banner-3 started from here */
+  .banner-3 {
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+.banner-3-title {
+    text-align: center;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+  }
+  .banner-3-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .banner-3-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    line-height: 26px;
+    padding-left: 144px;
+    padding-right: 144px;
+  }
+
+  /* banner-3-video section */
+
+  .banner-3-video{
+    padding: 32px;
+   border: 1px solid grey;
+   border-radius: 16px;
+    
+  }
+  .video-area-control{
+    border-radius: 16px;
+  }
+  /* banner 4 started from here */
+
+  .banner-4 {
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  /* banner 4 title section */
+  .banner-4-title {
+    text-align: center;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+  }
+  
+  .banner-4-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+  }
+  
+  .banner-4-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    line-height: 26px;
+    padding-left: 144px;
+    padding-right: 144px;
+  }
+  
+  /* banner-4 current skill target */
+  
+  
+  .banner-4-target {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .target-html {
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.5);
+    width: 364px;
+  
+  }
+  
+  .target-css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 364px;
+  }
+  
+  .target-js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 364px;
+  
+  }
+  /* using flex for fixing the btn position */
+  .target-1,
+  .target-2,
+  .target-3 {
+    padding: 40px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .target-1 h1,
+  .target-2 h1,
+  .target-3 h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .target-1 p,
+  .target-2 p,
+  .target-3 p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+  
+  
+  }
+  
+  .target-1 a,
+  .target-2 a,
+  .target-3 a {
+  
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+  
+  }
+  
+  
