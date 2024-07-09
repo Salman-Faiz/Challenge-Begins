@@ -1,0 +1,102 @@
+.banner-4 {
+  border-radius: 16px;
+  margin-right: 152px;
+  margin-left: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* banner 4 title section */
+.banner-4-title {
+  text-align: center;
+  padding-left: 97px;
+  padding-right: 97px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.banner-4-title h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.banner-4-title p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 24px;
+  line-height: 26px;
+  padding-left: 144px;
+  padding-right: 144px;
+}
+
+/* banner-4 current skill target */
+
+
+.banner-4-target {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.target-html {
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.5);
+  width: 364px;
+
+}
+
+.target-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  width: 364px;
+}
+
+.target-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  width: 364px;
+
+}
+
+.target-1,
+.target-2,
+.target-3 {
+  padding: 40px;
+}
+
+.target-1 h1,
+.target-2 h1,
+.target-3 h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.target-1 p,
+.target-2 p,
+.target-3 p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.target-1 h5,
+.target-2 h5,
+.target-3 h5 {
+
+  text-decoration: underline;
+  color: rgb(13, 19, 33);
+  font-weight: 700;
+}
