@@ -1,0 +1,31 @@
+.banner-3 {
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.banner-3-title {
+    text-align: center;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+  }
+  .banner-3-title h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .banner-3-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    line-height: 26px;
+    padding-left: 144px;
+    padding-right: 144px;
+  }
