@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
   }
 .banner-3-title {
     text-align: center;
@@ -28,4 +29,16 @@
     line-height: 26px;
     padding-left: 144px;
     padding-right: 144px;
+  }
+
+  /* banner-3-video section */
+
+  .banner-3-video{
+    padding: 32px;
+   border: 1px solid grey;
+   border-radius: 16px;
+    
+  }
+  .video-area-control{
+    border-radius: 16px;
   }
