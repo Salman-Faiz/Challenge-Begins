@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 /* banner 4 title section */
@@ -62,7 +63,7 @@
   width: 364px;
 
 }
-
+/* using flex for fixing the btn position */
 .target-1,
 .target-2,
 .target-3 {
@@ -98,9 +99,9 @@
 
 }
 
-.target-1 h5,
-.target-2 h5,
-.target-3 h5 {
+.target-1 a,
+.target-2 a,
+.target-3 a {
 
   text-decoration: underline;
   color: rgb(13, 19, 33);
@@ -108,14 +109,3 @@
 
 }
 
-/* using flex for fixing the btn position */
-/* .target-html, .target-css, .target-js{
-  display: flex;
-  flex-direction: column;
-}
-.target-html p, .target-css p, .target-js p{
-  flex-grow: 1;
-}
-.target-html h5, .target-css h5, .target-js h5{
-  flex-grow: 0;
-} */
