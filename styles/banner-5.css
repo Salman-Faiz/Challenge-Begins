@@ -1,0 +1,14 @@
+.banner-5{
+    background-image: url(/assets/handshake.jpg);
+   
+    height: 314px;
+    border-radius: 16px;
+    margin-right: 152px;
+    margin-left: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-position: center;
+}

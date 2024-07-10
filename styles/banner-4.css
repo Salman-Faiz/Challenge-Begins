@@ -12,10 +12,11 @@
 /* banner 4 title section */
 .banner-4-title {
   text-align: center;
+  width: 852px;
   padding-left: 97px;
   padding-right: 97px;
   padding-top: 80px;
-  padding-bottom: 80px;
+ 
 
 }
 
@@ -33,6 +34,7 @@
   line-height: 26px;
   padding-left: 144px;
   padding-right: 144px;
+  padding-bottom: 48px;
 }
 
 /* banner-4 current skill target */
@@ -69,6 +71,7 @@
 .target-3 {
   padding: 40px;
   height: 330px;
+  width: 284px;
   display: flex;
   flex-direction: column;
   
@@ -81,7 +84,6 @@
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 

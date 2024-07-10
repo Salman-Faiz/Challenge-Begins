@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   font-family: Azeret Mono;
+ 
 }
 
 .banner-1 {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url(../assets/Hero-bg.png);
   height: 652px;
   max-width: 100%;
 }
