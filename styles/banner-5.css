@@ -1,14 +1,74 @@
-.banner-5{
+.banner-5 {
     background-image: url(/assets/handshake.jpg);
-   
+
     height: 314px;
     border-radius: 16px;
     margin-right: 152px;
     margin-left: 152px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     margin-bottom: 100px;
     background-position: center;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+
+}
+
+.banner-5-content {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.banner-5-title {
+    width: 730px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.banner-5-title h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.banner-5-title p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-5-content .input-items{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-5-content .support-field {
+    width: 548px;
+    padding-left: 20px;
+    border-radius: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    font-weight: 400;
+    height: 57px;
+}
+
+.banner-5-content .support-submit {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    height: 57px;
+    border-radius: 16px;
 }
